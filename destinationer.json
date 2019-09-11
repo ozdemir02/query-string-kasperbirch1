@@ -1,0 +1,12 @@
+{
+    "images": "images/andalucia.webp",
+    "destination": "Spaninen",
+    "title ": "Spaninen title",
+    "subtitle": "spaninen subtitle",
+    "text": "spaninen text",
+    "faciliteter": [
+        "facilitet1",
+        "facilitet2",
+        "facilitet3"
+    ]
+}

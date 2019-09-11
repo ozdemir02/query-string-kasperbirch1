@@ -1,0 +1,90 @@
+* {
+    outline: red 1px dashed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 330px);
+    grid-gap: 1rem;
+}
+
+.card {
+    background-color: #BCEDFD;
+    display: grid;
+    grid-template-rows: 330px 70px;
+}
+
+.card__img {
+    background-image: url(/images/travel.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;}
+
+.card__info { 
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #2699FB ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__info-link {
+    margin-right: 1rem;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.card__info-icon {
+    margin-left: 1rem;
+}
+
+.card__info-icon-active {
+    color: #FB26CA;
+}
+
+/* INFO PAGE */
+
+.info-page__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.info-page__imgbox {
+    position: relative;
+}
+
+.info-page-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.info-page__article {
+    padding: 2rem;
+}
+
+.info-page__paragraph-pink{
+    color: #FB26CA;
+
+}
+
+.info-page__list {
+    list-style: none;
+}
