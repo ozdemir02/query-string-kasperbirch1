@@ -1,12 +1,46 @@
 {
-    "images": "images/andalucia.webp",
-    "destination": "Spaninen",
-    "title ": "Spaninen title",
-    "subtitle": "spaninen subtitle",
-    "text": "spaninen text",
-    "faciliteter": [
-        "facilitet1",
-        "facilitet2",
-        "facilitet3"
+    "destinationer": [
+        {
+            "id": 1,
+            "images": "andalucia.webp",
+            "destination": "Spaninen",
+            "title ": "Spaninen title",
+            "subtitle": "spaninen subtitle",
+            "text": "spaninen text",
+            "faciliteter": [
+                "facilitet1",
+                "facilitet2",
+                "facilitet3",
+                "Tilføjet sener"
+            ]
+        },
+        {
+            "id": 2,
+            "images": "travel.jpg",
+            "destination": "Danmark",
+            "title ": "Spaninen title",
+            "subtitle": "spaninen subtitle",
+            "text": "spaninen text",
+            "faciliteter": [
+                "facilitet1",
+                "facilitet2",
+                "facilitet3",
+                "Tilføjet sener"
+            ]
+        },
+        {
+            "id": 3,
+            "images": "grækenland.jpg",
+            "destination": "Grækenland",
+            "title ": "Spaninen title",
+            "subtitle": "spaninen subtitle",
+            "text": "spaninen text",
+            "faciliteter": [
+                "facilitet1",
+                "facilitet2",
+                "facilitet3",
+                "Tilføjet sener"
+            ]
+        }
     ]
 }

@@ -1,5 +1,5 @@
 * {
-    outline: red 1px dashed;
+    -outline: red 1px dashed;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +18,9 @@ body {
 }
 
 .card-container {
+    width: 90%;
     display: grid;
-    grid-template-columns: repeat(4, 330px);
+    grid-template-columns: repeat( auto-fit, minmax(150px, 330px) );
     grid-gap: 1rem;
 }
 
@@ -30,10 +31,11 @@ body {
 }
 
 .card__img {
-    background-image: url(/images/travel.jpg);
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover;}
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .card__info { 
     font-size: 1.5rem;
@@ -55,13 +57,14 @@ body {
     margin-left: 1rem;
 }
 
-.card__info-icon-active {
+.active-pink {
     color: #FB26CA;
 }
 
 /* INFO PAGE */
 
 .info-page__container {
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
@@ -70,19 +73,29 @@ body {
     position: relative;
 }
 
+.info-page__img {
+    display: block;
+    height: 100%;
+    background-image: url(/images/travel.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
 .info-page-icon {
+    font-size: 2rem;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 1rem;
+    left: 1rem;
 }
 
 .info-page__article {
+    color: #2699FB;
     padding: 2rem;
 }
 
-.info-page__paragraph-pink{
-    color: #FB26CA;
-
+.info-page__article > *{
+   margin-bottom: 1rem;
 }
 
 .info-page__list {
